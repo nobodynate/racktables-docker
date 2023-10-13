@@ -4,7 +4,7 @@ a docker container to quickly build a new racktables environment. this is for de
 # How To
 ## Download From dockerhub
 ```
-docker run -p 80:80 -p 3306:3306 nobodynate/ubuntu-racktables
+docker run -it -p 80:80 -p 3306:3306 nobodynate/ubuntu-racktables
 ```
 
 ## Configure Racktables
